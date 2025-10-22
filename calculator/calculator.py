@@ -98,20 +98,10 @@ class Calculator:
         """
         if n < 0:
             raise ValueError("不能对负数求平方根")
-<<<<<<< HEAD
-        return n ** 0.5
-    
+        return n**0.5
+
     def modulo(self, a: float, b: float) -> float:
         """取模运算"""
         if b == 0:
             raise ValueError("除数不能为0")
         return a % b
-
-    111111
-    #自主添加的测试
-=======
-        return n**0.5
-
-
-# 测试tag
->>>>>>> d10dd4034306ba2df8c03cfb53ba7fed86c86210
